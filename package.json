@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.0.3",
+    "mongoose-sequence": "^5.3.1",
+    "openai": "^3.2.1"
+  },
+  "name": "gpt-discord-bot",
+  "description": "This will be a discord bot for GPT conversations using discord.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibotva/GPT-Discord-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibotva/GPT-Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/ibotva/GPT-Discord-Bot#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/mongoose-sequence": "^3.0.7",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.3"
+  }
+}
